@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK SAHIL</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/portfolio.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main>
+        <div id="header">
+            <div class="container">
+                <nav>
+                <img src="./images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contacts">Contact Me</a></li>
+                    <i class="bi bi-x-lg" onclick="closemenu()"></i>
+                </ul>
+                <i class="bi bi-list" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+  <div class="header-box">
+    <p>💻 Freelance Software Developer 🇪🇺🇺🇸🇩🇪 | 👨‍🏫 Coding Tutor 🧠 | 💼 Investor 📈</p>
+    <h1>Hi, I'm <span>SK Sahil</span> <br>from India 🇮🇳</h1>
+  </div>
+</div>
+
+            </div>
+        </div>
+
+        
+        <!------------About section---------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <!-- About Images (Sequential Gallery) -->
+      <!-- About Images (Sequential Gallery) -->
+<div class="about-col-1">
+  <div class="image-gallery">
+    <img src="./images/sk00.jpeg" alt="SK Sahil 1" class="active">
+    <img src="./images/sk01.jpeg" alt="SK Sahil 2">
+    <img src="./images/sk02.JPG" alt="SK Sahil 3">
+    <img src="./images/sk03.jpeg" alt="SK Sahil 4">
+    <img src="./images/sk04.jpeg" alt="SK Sahil 5">
+    <img src="./images/sk05.jpeg" alt="SK Sahil 5">
+  </div>
+
+  <!-- 🧠 Add Second Image Section -->
+  <div class="tech-gallery">
+    <img src="./images/skills.svg" alt="Tech Stack - Tools & Skills">
+  </div>
+</div>
+
+
+      <!-- About Text Section -->
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p class="about-text">
+          <span>Hello, I’m <b>SK Sahil 👋</b></span><br><br>
+          I’m a <b>Full Stack Developer</b>, <b>Freelance Software Engineer</b>, and <b>German University Student 🇩🇪</b> 
+          working globally across <b>Europe 🇪🇺, Africa 🌍, USA 🇺🇸, and Asia 🌏</b>.<br><br>
+
+          I’m currently pursuing my <b>Bachelor’s in Computer Science</b> at 
+          <b>IU International University of Applied Sciences</b>.<br><br>
+
+          I’ve developed multiple academic and professional projects, including:
+          <ul>
+            <li>🛍️ <b>MERN Stack E-Commerce Platform</b> (University Project)</li>
+            <li>🏨 <b>Airbnb Database Design & Implementation</b> using MySQL</li>
+            <li>📊 <b>Habit Tracker Application</b> (MERN + Software Design Principles)</li>
+            <li>🤖 <b>Ongoing Bachelor Thesis on AI (LLMs & Agentic Frameworks)</b></li>
+          </ul>
+          Alongside development, I’m a <b>Coding Tutor</b> at <b>NYCTA</b>, <b>Tech-T</b>, and <b>EduTech</b>, helping students master 
+          <b>Python, Java, and the MERN Stack</b>.  
+          I’m also an <b>Investor 💼</b> and <b>Content Writer ✍️</b> creating academic and AI-based materials for clients worldwide.
+        </p>
+
+        <!-- Tabs Section -->
+        <div class="tab-titels">
+          <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-link" onclick="opentab('experience')">Experience</p>
+          <p class="tab-link" onclick="opentab('education')">Education</p>
+        </div>
+
+        <!-- Skills -->
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Programming</span><br>Python, JavaScript, Java, C</li>
+            <li><span>Web Development</span><br>MERN Stack, REST APIs, React.js, MySQL, MongoDB, API, Git, GitHub</li>
+            <li><span>Data Analytics with Generative AI</span><br>SQL, Python Libraries (Pandas, Matplotlib, Scikit-Learn), Power BI, Advanced Excel</li>
+            <li><span>Artificial Intelligence & Soft Skills</span><br>ML, Prompt Engineering, LLMs, Agentic AI, AI Tools(Sora, Gemini, GPT5), Communication, Problem Solving</li>
+          </ul>
+        </div>
+
+        <!-- Experience -->
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2023 - Present</span><br>Coding Tutor at <b>NYCTA</b>, <b>Tech-T</b>, and <b>EduTech</b></li>
+            <li><span>2023</span><br>Internship – MERN Stack Development, <b>Top Stack</b></li>
+            <li><span>2023</span><br>Full Stack Web Development Program – <b>Edureka</b></li>
+            <li><span>2022</span><br>Internship – Computer Hardware, <b>TPI</b></li>
+          </ul>
+        </div>
+
+        <!-- Education -->
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2023-Now</span><br>Bachelor’s in Computer Science – IU International University 🇩🇪</li>
+            <li><span>2022</span><br>Diploma in Computer Science – Technique Polytechnic Institute</li>
+            <li><span>2020</span><br>Higher Secondary (Pure Science) – Bansberia High School</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JS for Image Slideshow -->
+<script>
+  let images = document.querySelectorAll('.image-gallery img');
+  let index = 0;
+  setInterval(() => {
+    images[index].classList.remove('active');
+    index = (index + 1) % images.length;
+    images[index].classList.add('active');
+  }, 2500);
+</script>
+
+                   
+<!-----------Services---------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+
+      <!-- Web & AI Development -->
+      <div class="service-box">
+        <i class="bi bi-globe service-icon"></i>
+        <h2>Web & AI Application Development</h2>
+        <p>
+          I design and develop <b>modern, responsive websites</b> and <b>AI-driven web apps</b> using the latest
+          technologies like <b>React.js, Node.js, MongoDB, and Python</b>.<br><br>
+          Services include:
+        </p>
+        <ul>
+          <li>🌐 Full-Stack Web & Portfolio Websites</li>
+          <li>🤖 AI-Based Application Development</li>
+          <li>📈 SaaS & Dashboard Solutions</li>
+        </ul>
+        <a href="https://github.com/programmer-sahil" target="_blank" class="btn-service">
+          🚀 View My Projects
+        </a>
+      </div>
+
+      <!-- Coding Lessons -->
+      <div class="service-box">
+        <i class="bi bi-code-slash service-icon"></i>
+        <h2>Coding Lessons & Mentorship</h2>
+        <p>
+          As a <b>Certified Coding Tutor</b> with global experience, I provide personalized 1:1 and group sessions in:
+        </p>
+        <ul>
+          <li>💻 Python, JavaScript, and C Programming</li>
+          <li>⚙️ MERN Stack & Web Development</li>
+          <li>🎯 Data Structures and Algorithms</li>
+        </ul>
+        <p>I’ve mentored over <b>300+ students</b> worldwide.</p>
+        <a href="https://www.linkedin.com/in/programmer-sahil/" target="_blank" class="btn-service blue-btn">
+          🎓 Book a Session
+        </a>
+      </div>
+
+      <!-- Content Writing -->
+<div class="service-box">
+  <i class="bi bi-journal-richtext service-icon"></i>
+  <h2>Content Writing & Documentation</h2>
+  <p>
+    Offering <b>professional writing services</b> for IT students, startups, and researchers:
+  </p>
+  <ul>
+    <li>📚 Scientific Reports & Case Studies (APA 7th)</li>
+    <li>🧾 Technical Documentation & GitHub READMEs</li>
+    <li>📰 Blog Articles on AI, Web Dev & Education</li>
+  </ul>
+  <a href="https://wa.me/918583058673" target="_blank" class="btn-service whatsapp-btn">
+    <i class="bi bi-whatsapp"></i> Message Me on WhatsApp
+  </a>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+       <!-- ========= Projects Section ========= -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+
+      <!-- Project 1: LLM & Agentic AI -->
+      <div class="work">
+        <img src="./images/ai.jpg" alt="LLM & Agentic AI Project">
+        <div class="layer">
+          <h3>🧠 LLM & Agentic AI Framework</h3>
+          <p>
+            Designed a <b>Python-based intelligent automation framework</b> integrating 
+            <b>LangChain, OpenAI API, and CrewAI</b> to build agentic reasoning systems capable of 
+            <b>planning, memory, and autonomous task execution</b>.  
+            It demonstrates tool-use, contextual learning, and human-AI collaboration.  
+            <br><br><b>Tech Stack:</b> Python, LangChain, CrewAI, OpenAI API, Streamlit, FastAPI, JSON
+          </p>
+          <a href="https://github.com/programmer-sahil/LLM_Agentic_AI" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2: MERN Stack Ecommerce Website -->
+      <div class="work">
+        <img src="./images/ecommerce.jpg" alt="Ecommerce Website Project">
+        <div class="layer">
+          <h3>🛍️ MERN Stack E-Commerce Website</h3>
+          <p>
+            Developed a <b>full-featured e-commerce platform</b> enabling product management, 
+            cart system, PayPal payments, and admin dashboards.  
+            Implemented <b>secure authentication (JWT + Bcrypt)</b>, 
+            <b>image uploads with Cloudinary</b>, and <b>RESTful APIs</b> for scalability.  
+            <br><br><b>Tech Stack:</b> MongoDB, Express.js, React.js, Node.js, TailwindCSS, PayPal SDK, Cloudinary
+          </p>
+          <a href="https://github.com/programmer-sahil/MERN_Stack_Ecommerce_University_Project_IU" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 3: Habit Tracker App -->
+      <div class="work">
+        <img src="./images/habit.jpg" alt="Habit Tracker App">
+        <div class="layer">
+          <h3>📊 Habit Tracker App (MERN + System Design)</h3>
+          <p>
+            A <b>personal productivity app</b> built using the <b>MERN stack</b> and modern software design principles.  
+            It allows users to log habits, visualize progress, and track completion streaks.  
+            Includes <b>modular architecture</b>, <b>REST APIs</b>, and <b>MongoDB schema optimization</b>.  
+            <br><br><b>Tech Stack:</b> MongoDB, Express.js, React.js, Node.js, Chart.js, JSON Web Tokens, System Design
+          </p>
+          <a href="https://github.com/programmer-sahil/habit-tracker-iu-portfolio" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <a href="https://github.com/programmer-sahil" target="_blank" class="btn">View All Projects on GitHub</a>
+  </div>
+</div>
+
+        <!---------contacts---------->
+        <div id="contacts">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+  <h1 class="sub-title">Contact Me</h1>
+
+  <p><i class="bi bi-envelope-fill"></i> sksahilnew2021@gmail.com</p>
+  <p><i class="bi bi-geo-alt-fill"></i> Kolkata, India 🇮🇳</p>
+  <p><i class="bi bi-telephone-fill"></i> +91 8583058673</p>
+
+  <div class="social-icon">
+    <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
+    <a href="https://twitter.com/"><i class="bi bi-twitter-x"></i></a>
+    <a href="https://www.linkedin.com/in/programmer-sahil/"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/programmer-sahil"><i class="bi bi-github"></i></a>
+  </div>
+
+  <!-- Modern CV Card -->
+  <div class="cv-card">
+    <i class="bi bi-file-earmark-person-fill cv-icon"></i>
+    <div class="cv-info">
+      <h3>View My CV</h3>
+      <p>Full Stack Developer | Coding Tutor | AI Enthusiast</p>
+      <a href="./files/SK_Sahil_FullStackDeveloper_CV.pdf" target="_blank" class="btn-cv">
+        <i class="bi bi-box-arrow-up-right"></i> Open CV (PDF)
+      </a>
+    </div>
+  </div>
+</div>
+
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" action="">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+  <p>
+    © <span id="year"></span> <b>SK Sahil Portfolio®</b>. All Rights Reserved. <br>
+    <small>
+      The information provided on this website is for general informational purposes only. <br>
+      Designed & Developed with ❤️ by <b>SK Sahil</b>.
+    </small>
+  </p>
+</div>
+        </div>
+
+    </main>
+
+<!-- Auto Update Year Script -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzn-RiFneHOAc_CVYCuR4K8_kVH-GZBiVPGA4_zgqppV_vZ1BFrLU43KGitUu7i497F/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message send successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+
+</html>
+
+<!-- https://script.google.com/macros/s/AKfycbyMl866VMUI4oEjYE7-UTNPotiF_VBs_MOTO1dkakTd7yvLIsA0DqiMa2so1wzt37fy/exec -->
+<!-- AKfycbyMl866VMUI4oEjYE7-UTNPotiF_VBs_MOTO1dkakTd7yvLIsA0DqiMa2so1wzt37fy ->id deployment -->
